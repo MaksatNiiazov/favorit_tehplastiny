@@ -1,6 +1,3 @@
-.flex{
-  display: flex;
-}
 .container{
   margin: 0 auto;;
 }
@@ -69,6 +66,12 @@ header{
 }
 
 
+.about-product{
+  text-align: center;
+  margin-top: 60px;
+  margin-right: 200px;
+}
+
 
 .about-product{
   display: flex;;
@@ -86,6 +89,16 @@ header{
   margin-left: 20px;
 }
 footer{
-  padding: 20px;
-  margin: 0 auto;;
+  padding: 50px;
+  margin: 60px auto 0;
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+  background-color: #0004ff;
+  border-top: 1px solid #0004ff;
+  border-bottom: 1px solid #0004ff;
+  border-radius: 0 0 5px 5px;
+
+
+  
 }
