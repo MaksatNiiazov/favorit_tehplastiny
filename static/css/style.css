@@ -1,0 +1,91 @@
+.flex{
+  display: flex;
+}
+.container{
+  margin: 0 auto;;
+}
+header{
+  background-image: url(../imgs/завод.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  color: #fff;
+  width: 100%;
+
+}
+
+.head{
+  background-color: #0004ff75;
+  text-align: center;
+  margin: auto 0;
+}
+.head-items{
+  margin: 0 auto;;
+}
+.head-items h1{
+  font-size: 60px;
+}
+
+.logo img {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+}
+
+
+.contact-us{
+  background-color: #0026ff;
+  padding: 20px;
+}
+
+.contact-us-items{
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  align-items: center;;
+  color: #fff; 
+}
+
+.contact-us-items
+.contact-us-button {
+  margin-left: 30px;
+  background-color: #3f3ce7;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.contact-us-button:hover {
+  background-color: #2abbff;
+}
+
+
+
+.about-product{
+  display: flex;;
+}
+.product-types{
+  max-width: 250px;
+}
+.product-types ul li{
+  padding: 4px 10px;
+  list-style-type: none;
+  box-shadow: 0 0 2px #000;
+}
+
+.info-list{
+  margin-left: 20px;
+}
+footer{
+  padding: 20px;
+  margin: 0 auto;;
+}
