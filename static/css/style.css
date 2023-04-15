@@ -14,7 +14,7 @@ ul{
 header{
   background-image: url(../imgs/завод.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;;
   background-position: center;
   height: 500px;
   color: #fff;
@@ -70,6 +70,7 @@ td:nth-child(5) span {
   margin: auto 0;
 }
 .head-items{
+  max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -138,9 +139,6 @@ td:nth-child(5) span {
 .product-types h5{
   
   margin-bottom: 0;
-}
-.product-types li {
-  box
 }
 
 
