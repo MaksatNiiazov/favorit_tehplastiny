@@ -64,3 +64,21 @@ cardsData.forEach(cardData => {
 
   cardContainer.appendChild(card);
 });
+
+// // Получаем ссылки на кнопку и на попап
+// const popupButton = document.getElementById("popup-button");
+// const popupContent = document.getElementById("popup-content");
+
+// // Добавляем обработчик события на клик по кнопке
+// popupButton.addEventListener("click", function() {
+//   // Показываем попап
+//   popupContent.style.display = "block";
+// });
+
+// // Добавляем обработчик события на клик вне попапа
+// document.addEventListener("click", function(event) {
+//   // Если клик был не по попапу и не по кнопке, скрываем попап
+//   if (event.target !== popupContent && event.target !== popupButton) {
+//     popupContent.style.display = "none";
+//   }
+// });
