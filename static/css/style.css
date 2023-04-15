@@ -256,6 +256,7 @@ td:nth-child(5) span {
   opacity: 0;
   visibility: hidden;
   transition: 0.2s ease;
+  text-align: start;
 }
 
 .popup.active {
@@ -274,6 +275,7 @@ td:nth-child(5) span {
   position: relative;
   overflow: auto;
   z-index: 1000;
+  text-align: start;
 }
 
 .close-popup {
