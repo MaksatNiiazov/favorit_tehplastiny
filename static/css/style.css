@@ -545,5 +545,8 @@ footer{
   margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
   width: 200px;
   height: 150px;
-
    }
+
+div .about{
+  width: 100%;
+}
