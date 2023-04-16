@@ -533,3 +533,11 @@ footer{
 .card-text p{
   margin-bottom: 20px;
 }
+
+.leftimg {
+  float:left; /* Выравнивание по левому краю */
+  margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+  width: 200px;
+  height: 150px;
+
+   }
