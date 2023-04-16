@@ -525,5 +525,5 @@ footer{
   }
 
 .popup-content p{
-  white-space: nowrap;
+  margin-bottom: 10px;
 }
