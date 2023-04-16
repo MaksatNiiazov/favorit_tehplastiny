@@ -27,3 +27,35 @@ function showNextSlide() {
 sliderPrevButton.addEventListener('click', showPrevSlide);
 sliderNextButton.addEventListener('click', showNextSlide);
 showSlide(slideIndex);
+
+
+
+const container = document.querySelector('.slider-container1');
+const prevButton = document.querySelector('.slider-prev1');
+const nextButton = document.querySelector('.slider-next1');
+const slides1 = document.querySelectorAll('.slider-slide1');
+let index = 0;
+
+function displaySlide(slideIndex) {
+  container.style.transform = `translateX(-${slideIndex * 100}%)`;
+}
+
+function displayPrevSlide() {
+  index--;
+  if (index < 0) {
+    index = slides1.length - 1;
+  }
+  displaySlide(index);
+}
+
+function displayNextSlide() {
+  index++;
+  if (index >= slides1.length) {
+    index = 0;
+  }
+  displaySlide(index);
+}
+
+prevButton.addEventListener('click', displayPrevSlide);
+nextButton.addEventListener('click', displayNextSlide);
+displaySlide(index);

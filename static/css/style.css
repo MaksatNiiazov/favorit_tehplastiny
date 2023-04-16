@@ -463,18 +463,20 @@ footer{
   }
 
 
-  .slider {
+  .slider{
     position: relative;
     width: 100%;
     overflow: hidden;
   }
   
-  .slider-container {
+  .slider-container,
+  .slider-container1 {
     display: flex;
     transition: transform 0.5s ease-in-out;
   }
   
-  .slider-slide {
+  .slider-slide,
+  .slider-slide1 {
     flex: 0 0 100%;
     display: flex;
     flex-direction: column;
@@ -486,7 +488,9 @@ footer{
   }
   
   .slider-prev,
-  .slider-next {
+  .slider-next,
+  .slider-prev1,
+  .slider-next1 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -497,11 +501,13 @@ footer{
     z-index: 1;
   }
   
-  .slider-prev {
+  .slider-prev,
+  .slider-prev1 {
     left: 0;
   }
   
-  .slider-next {
+  .slider-next,
+  .slider-next1 {
     right: 0;
   }
   
