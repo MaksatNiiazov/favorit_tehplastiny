@@ -527,3 +527,7 @@ footer{
 .popup-content p{
   margin-bottom: 10px;
 }
+
+.card-text p{
+  margin-bottom: 20px;
+}
