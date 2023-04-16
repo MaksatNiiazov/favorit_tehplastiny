@@ -436,6 +436,7 @@ footer{
     margin: 20px;
     }
     }
+
   .scrollable::-webkit-scrollbar {
     width: 10px;
     height: 10px;
@@ -478,6 +479,8 @@ footer{
     justify-content: start;
     align-items: start;
     text-align: start;
+    overflow: auto;
+
   }
   
   .slider-prev,
@@ -485,6 +488,10 @@ footer{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    background-color: transparent;
+    object-fit: fill;
+    border: none;
+    height: 200px;
     z-index: 1;
   }
   
@@ -496,3 +503,23 @@ footer{
     right: 0;
   }
   
+
+  @media (max-width: 768px) {
+    .slider-slide {
+      flex-direction: column;
+    }
+    .slider-prev,
+    .slider-next {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .slider-slide {
+      font-size: 14px;
+    }
+    .slider-prev,
+    .slider-next {
+      font-size: 10px;
+    }
+  }
