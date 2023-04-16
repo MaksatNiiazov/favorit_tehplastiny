@@ -523,3 +523,7 @@ footer{
       font-size: 10px;
     }
   }
+
+.popup-content p{
+  white-space: nowrap;
+}
