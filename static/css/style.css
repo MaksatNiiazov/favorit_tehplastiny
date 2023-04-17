@@ -148,7 +148,7 @@ td:nth-child(5) span {
 .adv-block{
   display: flex;
   flex-direction: column;
-  height: 100%;
+  max-height: 100%;
   margin-top: 50px;
   
 }
