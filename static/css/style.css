@@ -550,3 +550,88 @@ footer{
 div .about{
   width: 100%;
 }
+
+
+/* Стили для оверлея */
+.custom-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Стили для попапа */
+.custom-popup {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  max-width: 500px;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.custom-popup h2 {
+  margin-top: 0;
+}
+
+.custom-popup label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.custom-popup input,
+.custom-popup textarea {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-top: 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+.custom-popup button {
+  background-color: #f80;
+  left: 0px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.custom-popup button:hover {
+  background-color: #faa;
+}
+
+.custom-popup button[type="submit"] {
+  background-color: #8bc34a;
+}
+
+.custom-popup button[type="submit"]:hover {
+  background-color: #a5d6a7;
+}
+
+/* Стили для кнопки закрытия */
+.custom-close-popup {
+  background-color: transparent;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  font-size: 18px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
